@@ -26,3 +26,8 @@ function subtract(a:number,b:number):number{
 function boolean(a:number,b:number):boolean{
     return a===b;
 }
+
+
+function multiply(a:number,b:number):number{
+    return a*b
+}
