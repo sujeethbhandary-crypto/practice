@@ -30,5 +30,5 @@ function boolean(a:number,b:number):boolean{
 
 
 function multiply(a:number,b:number):number{
-    return a*b
+    return a*b+100;
 }
