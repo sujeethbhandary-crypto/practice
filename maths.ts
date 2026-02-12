@@ -32,3 +32,7 @@ function boolean(a:number,b:number):boolean{
 function multiply(a:number,b:number):number{
     return a*b+100;
 }
+
+function divide(a:number,b:number):number{
+    return a/b;
+}
