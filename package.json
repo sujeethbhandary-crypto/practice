@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/sujeethbhandary-crypto/practice/issues"
   },
-  "homepage": "https://github.com/sujeethbhandary-crypto/practice#readme"
+  "homepage": "https://github.com/sujeethbhandary-crypto/practice#readme",
+  "dependencies": {
+    "lodash": "^4.17.23"
+  }
 }
