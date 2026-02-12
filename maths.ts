@@ -32,7 +32,16 @@ function boolean(a:number,b:number):boolean{
 function multiply(a:number,b:number):number{
     return a*b+100;
 }
-
+/**
+ * 
+ * @param a number a
+ * @param b number b
+ * @returns 
+ */
 function divide(a:number,b:number):number{
+    //division by zero is not allowed, throw an error if b is zero
+    if(b===0){
+        throw new Error("Division by zero is not allowed.");
+    }
     return a/b;
 }
